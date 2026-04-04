@@ -1,6 +1,6 @@
 local map = vim.keymap.set
 
---map("n", ";", ":", { desc = "CMD enter command mode" })
+map("n", ";", ":", { desc = "CMD enter command mode" })
 --vim.keymap.del('n', '<leader>v')
 --vim.keymap.del('n', '<leader>h')
 --vim.keymap.del('n', '<C-c>')
@@ -13,11 +13,11 @@ harpoon:setup()
 
 vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end)
 vim.keymap.set("n", "<M-e>", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end)
-vim.keymap.set("n", "<M-1>", function() harpoon:list():select(1) end)
-vim.keymap.set("n", "<M-2>", function() harpoon:list():select(2) end)
-vim.keymap.set("n", "<M-3>", function() harpoon:list():select(3) end)
-vim.keymap.set("n", "<M-4>", function() harpoon:list():select(4) end)
-vim.keymap.set("n", "<M-5>", function() harpoon:list():select(5) end)
+vim.keymap.set("n", "<M-b>", function() harpoon:list():select(1) end)
+vim.keymap.set("n", "<M-m>", function() harpoon:list():select(2) end)
+vim.keymap.set("n", "<M-w>", function() harpoon:list():select(3) end)
+vim.keymap.set("n", "<M-v>", function() harpoon:list():select(4) end)
+vim.keymap.set("n", "<M-z>", function() harpoon:list():select(5) end)
 vim.keymap.set("n", "<M-6>", function() harpoon:list():select(6) end)
 vim.keymap.set("n", "<M-7>", function() harpoon:list():select(7) end)
 vim.keymap.set("n", "<M-8>", function() harpoon:list():select(8) end)
@@ -38,3 +38,6 @@ vim.keymap.set("n", "<leader>v", '<cmd> vsplit <cr>')
 vim.keymap.set("n", "<leader>h", '<cmd> split <cr>')
 
 
+vim.keymap.set("n", "<M-t>", '<cmd>lua vim.treesitter.start()  <cr>')
+vim.keymap.set("n", "<C-j>", '<cmd> m +1 <cr>')
+vim.keymap.set("n", "<C-k>", '<cmd> m -2 <cr>')

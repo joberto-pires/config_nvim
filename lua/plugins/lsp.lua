@@ -17,7 +17,7 @@ return {
           "clangd",
           "omnisharp",       -- C# support
         },
-        automatic_installation = false,
+        automatic_installation = true,
       })
     end,
   },

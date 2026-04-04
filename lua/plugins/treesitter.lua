@@ -7,6 +7,12 @@ return {
 		"html", "css", "elixir", "heex", "eex",
 		"go", "rust", "c", "cpp", "c_sharp",
 	    },
+	    highlight = {
+		enable = true,
+	    },
+	    indent = {
+		enable = true,
+	    },
 	},
     },  
 }
