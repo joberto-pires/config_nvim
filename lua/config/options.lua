@@ -9,4 +9,4 @@ vim.o.softtabstop = 4
 vim.o.expandtab = true
 vim.o.smartindent = true
 vim.o.smartcase = true
-vim.o.colorcolumn = "115"
+vim.o.colorcolumn = "80"

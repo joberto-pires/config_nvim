@@ -16,6 +16,10 @@ return {
           "rust_analyzer",
           "clangd",
           "omnisharp",       -- C# support
+          "dcm",
+          "snyk",
+          "ast-grep",
+          "trivy",
         },
         automatic_installation = true,
       })

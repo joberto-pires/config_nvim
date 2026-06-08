@@ -17,5 +17,6 @@
   "supermaven-nvim": { "branch": "main", "commit": "07d20fce48a5629686aefb0a7cd4b25e33947d50" },
   "switchscheme.nvim": { "branch": "main", "commit": "9b9b5cc484fb99ba6c4819a0411a7a52bdf456ee" },
   "telescope.nvim": { "branch": "master", "commit": "cfb85dcf7f822b79224e9e6aef9e8c794211b20b" },
+  "toggleterm.nvim": { "branch": "main", "commit": "50ea089fc548917cc3cc16b46a8211833b9e3c7c" },
   "yazi.nvim": { "branch": "main", "commit": "172bd64a4c2d3adbe2e0ef56289f47ffe139ca55" }
 }
